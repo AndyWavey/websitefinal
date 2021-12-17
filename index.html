@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <title>Cique's Portfolio</title>
+    
+</head>
+<body>
+
+    <!-- Nav section-->
+    <header>
+    <nav>
+        <div class="nav">
+            
+
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle"/>
+                <div class="menu">
+                    <a href="#forside">FORSIDE</a>
+                    <a href="#ommig">OM MIG</a>
+                    <a href="#portfolio">PORTFOLIO</a>
+                    <a href="#services">SERVICES</a>
+                    <a href="#kontakt">KONTAKT</a>
+
+                </div>
+        </div>
+    </nav>
+    </header>
+
+        <!-- Forside section-->
+    
+    <section class="home" id="forside">
+        
+            <h1> Velkommen til min portfolio</h1> 
+            <h2> Jeg er Andreas Nielsen alias Cique</h2>
+            <form action="#kontakt" class="kontaktbtn">
+            <input type="submit" value="Kontakt mig" id="kontaktbtn">
+            </form>
+              
+    </section>
+
+
+    <!-- Dette er min section for om mig -->
+<section class="hvemerjeg" id="ommig">
+            <h1>OM MIG</h1> 
+            <h2> Hvem er jeg?</h2>
+            
+            <div class="ommigbody">
+                <p>Jeg hedder Andreas Höyer Nielsen jeg er 27 år gammel og kommer fra Nyborg. Jeg bor nu i Odense SV, Dalum og studerer multimediedesign på UCL.
+                </p>
+
+                <p>
+                    Jeg synes uddannelsen på UCL som multimediedesigner er super fedt, fordi jeg får lov til at arbejde med ting som interesserer mig rigtig meget som f.eks at programmere en hjemmeside eller lave digital grafik i Adobe Illustrator eller Adobe Photoshop.
+                </p>
+
+                <p>
+                    Jeg er nytænkende og kreativ. Jeg har en stor passion for at hjælpe b.la andre selvstændige og mindre virksomheder med UX/UI design til diverse produkt græseflader eller programmering af websites med HTML, CSS og WordPress. 
+                </p>
+            </div>
+            <img src="gallery/myfacebw.png" alt="Billede af mig" class="ommigimg">
+  
+</section>
+
+<!-- Dette er min section for portfolio-->
+<section class="minportfolio" id="portfolio">
+    <h1>PORTFOLIO </h1>
+    <h2>Mine kreationer</h2>
+    
+        <div class="portfoliogallery">
+            <!-- Portfolio item 01 -->
+            <a href="#" class="portfolio_item">
+                <img src="gallery/logofjordkro.png" alt="" class="portfolio_img">
+            </a>
+            
+            <!-- Portfolio item 02 -->
+            <a href="#" class="portfolio_item">
+                <img src="gallery/selfportraitimg.png" alt="" class="portfolio_img">
+            </a>
+            
+            <!-- Portfolio item 03 -->
+            <a href="#" class="portfolio_item">
+                <img src="gallery/whales.png" alt="" class="portfolio_img">
+            </a>
+            
+            <!-- Portfolio item 04 -->
+            <a href="#" class="portfolio_item">
+                <img src="gallery/dancingcapy.gif" alt="" class="portfolio_img">
+            </a>
+            
+            <!-- Portfolio item 05 -->
+            <a href="#" class="portfolio_item">
+                <img src="gallery/Typografibil.png" alt="" class="portfolio_img">
+            </a>
+            
+            <!-- Portfolio item 06 -->
+            <a href="#" class="portfolio_item">
+                <img src="gallery/foodappimg.png" alt="" class="portfolio_img">
+            </a>
+        </div>
+    </section>
+
+<!-- Dette er min section for services -->
+<section class="mine-services" id="services">
+    <h1>SERVICES</h1>
+    <h2>Mine kompetencer</h2>
+    <div class="row">
+        <div class="box">
+            <h3>Website <br> Design</h3>
+            <p class="servicetext">Jeg har kompecenter til at programmere en responsiv hjemmeside eller en app til dig som er selvstændig eller til et firma enten fra bunden med HTML og CSS eller jeg kan lave en i WordPress </p>
+        </div>
+        <div class="box">
+            <h3>UI <br> Design</h3>
+            <p class="servicetext">Jeg har kompetencer til at planlægge og udvikle hvordan produktets grænseflader ser ud og fungerer. Dette involverer: Grafisk design og branding. Udarbejdelse af design styleguide løsningen.</p>
+        </div>
+        <div class="box">
+            <h3>UX <br> Design</h3>
+            <p class="servicetext">Jeg har kompetencer til at forbedre og styrke brugernes samlede oplevelse, når de interagerer med en virksomheds produkter og løsninger på tværs af forskellige digitale kanaler.</p>
+        </div>
+    </div>
+    </section>
+
+
+<!-- Dette er min section for kontakt -->
+<section class="kontaktinfo" id="kontakt">
+
+    <h1>KONTAKT</h1> 
+
+
+
+    <form class="form">
+        <input type="text" name="name" class="input" placeholder="Indsæt dit navn">
+        <input type="email" name="email" class="input" placeholder="Indsæt din email">
+        <textarea name="besked" id="besked" cols="30" rows="10" placeholder="Skriv din besked..."></textarea>
+        <input type="submit" value="SEND" id="send">
+
+    </form>
+
+</section>
+
+<footer class="footer">2021 Andreas Nielsen (Cique). Contact: @iamcique@gmail.com - All Rights Reserved.
+
+</footer>
+
+
+</body>
+</html>
